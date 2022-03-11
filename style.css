@@ -9,6 +9,10 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     margin: 0 auto;
 }
 
+
+/*----------------------------- 
+NAVIGATION
+-----------------------------*/
 .topNav {
     display: flex;
 }
@@ -16,6 +20,9 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     width: 200px;
     height: auto;
 }
+/*----------------------------- 
+BECOME A MEMBER
+-----------------------------*/
 .becomeMember {
     background-image: url(./assets/becomeAMember.svg);
     background-repeat: no-repeat;
@@ -25,6 +32,9 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     display: flex;
     height: 400px;
 }
+/*----------------------------- 
+HERO IMAGE
+-----------------------------*/
 .heroSplash {
     width: 100%;
     height: 400px;
@@ -46,3 +56,6 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     width: 500px;
     height: auto;
 }
+/*----------------------------- 
+HERO IMAGE
+-----------------------------*/
