@@ -21,7 +21,7 @@ NAVIGATION
     height: auto;
 }
 /*----------------------------- 
-BECOME A MEMBER
+BECOME MEMBER
 -----------------------------*/
 .becomeMember {
     background-image: url(./assets/becomeAMember.svg);
@@ -46,6 +46,10 @@ HERO IMAGE
     color: #000;
     margin: 0;
 }
+/*----------------------------- 
+EXIST SECTION
+-----------------------------*/
+
 .exist {
     display: flex;
 }
@@ -57,5 +61,12 @@ HERO IMAGE
     height: auto;
 }
 /*----------------------------- 
-HERO IMAGE
+WHAT WE DO SECTION
 -----------------------------*/
+
+.whatWeDo ul {
+    display: flex;
+}
+.whatWeDo ul li {
+    list-style: none;
+}
