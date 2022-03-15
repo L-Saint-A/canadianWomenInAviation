@@ -15,11 +15,26 @@ NAVIGATION
 -----------------------------*/
 .topNav {
     display: flex;
+    justify-content: space-between;
+    padding: 0 18px;
+    align-items: center;
 }
 .topLogo {
-    width: 200px;
+    width: 180px;
     height: auto;
 }
+.topNav ul {
+    list-style: none;
+    display: flex;
+}
+.topNav ul li a{
+    font-size: 22px;
+    color: #000;
+    padding: 0 6px;
+    margin: 0 6px;
+    text-decoration: none;
+}
+
 /*----------------------------- 
 BECOME MEMBER
 -----------------------------*/
@@ -28,7 +43,7 @@ BECOME MEMBER
     background-repeat: no-repeat;
     background-position: right;
     background-color: #000;
-    background-size: cover;
+    background-size: 75% 182%;
     display: flex;
     height: 400px;
 }
@@ -73,7 +88,6 @@ WHAT WE DO SECTION
 /*----------------------------- 
 CONFERENCE SPLASH SECTION
 -----------------------------*/
-
 .conferenceBanner img{
     width: 100%;
 }
@@ -81,4 +95,13 @@ CONFERENCE SPLASH SECTION
 /*----------------------------- 
 CREW SECTION
 -----------------------------*/
-
+.crew ul {
+    list-style: none;
+    display: flex;
+}
+.crew ul li {
+    width: 30%;
+}
+.crewImg img {
+    width: 200px;
+}
