@@ -72,6 +72,7 @@ BECOME MEMBER
     margin: 0;
     padding: 0;
     text-align: center;
+    letter-spacing: 10px;
 }
 .memberButton {
     display: flex;
@@ -126,15 +127,23 @@ EXIST SECTION
 .exist h2 {
     font-size: 74px;
     text-align: center;
+    letter-spacing: 10px;
 }
 /*----------------------------- 
 WHAT WE DO SECTION
 -----------------------------*/
-
+.whatWeDo h2 {
+    font-size: 74px;
+    letter-spacing: 10px;
+    text-align: center;
+}
 .whatWeDo ul {
     display: flex;
+    flex-wrap: wrap;
 }
 .whatWeDo ul li {
+    width: 40%;
+    margin: 0 auto;
     list-style: none;
 }
 /*----------------------------- 
