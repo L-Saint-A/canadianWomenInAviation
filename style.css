@@ -3,12 +3,19 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit}
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/*----------------------------- 
+PROGENITORS
+-----------------------------*/
 .wrapper {
     max-width: 1200px;
     width: 85%;
     margin: 0 auto;
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /*----------------------------- 
 NAVIGATION
@@ -43,9 +50,40 @@ BECOME MEMBER
     background-repeat: no-repeat;
     background-position: right;
     background-color: #000;
-    background-size: 75% 182%;
+    background-size: 68% 162%;
     display: flex;
     height: 400px;
+}
+.memberText {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 0 168px;
+    width: 50%;
+    justify-content: center;
+}
+.memberText h3 {
+    font-size: 44px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.memberText p {
+    font-size: 24px;
+}
+.memberButton {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    align-items: flex-end;
+}
+.memberButton a {
+    color: #000;
+    background-color: rgb(255, 208, 0);
+    font-size: 24px;
+    padding: 12px  24px;
+    text-decoration: none;
+    margin: 0 400px 22px 0;
 }
 /*----------------------------- 
 HERO IMAGE
