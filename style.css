@@ -232,7 +232,6 @@ CREW SECTION
 }
 .crewTitle {
     display: flex;
-    width: 100%;
     justify-content: center;
     text-align: center;
 }
