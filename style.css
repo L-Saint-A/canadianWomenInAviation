@@ -142,6 +142,15 @@ EXIST SECTION
     text-align: center;
     letter-spacing: 10px;
 }
+.existLink {
+    display: inline-block;
+    width: 100%;
+}
+.existLink a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
 /*----------------------------- 
 WHAT WE DO SECTION
 -----------------------------*/
@@ -229,11 +238,12 @@ CREW SECTION
 }
 .crew ul li {
     width: 26%;
-    box-shadow: 10px -10px  #3e7991;
-    -moz-box-shadow: 10px -10px  #3e7991;
-    -webkit-box-shadow: 14px 20px  #3e7991;
-    -o-box-shadow: 10px -10px  #3e7991;
-    border-radius: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 10px -10px  #b767c0;
+    -moz-box-shadow: 10px -10px  #b767c0;
+    -webkit-box-shadow: 14px 20px  #b767c0;
+    -o-box-shadow: 10px -10px  #b767c0;
+    border-radius: 0 0 25px 0;
 }
 .crewImg {
     display: flex;
@@ -244,4 +254,8 @@ CREW SECTION
     height: 350px;
     background-color: #fff;
     border-radius: 25px 0 0 0;
+}
+.crewText {
+    padding: 0 14px;
+    text-align: center;
 }
