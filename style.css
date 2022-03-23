@@ -147,15 +147,20 @@ WHAT WE DO SECTION
 -----------------------------*/
 .whatWeDo {
     background-color: #8bd2c4;
+    padding: 22px 0;
 }
 .whatWeDo h2 {
     font-size: 74px;
     letter-spacing: 10px;
     text-align: center;
 }
+.whatWeDo h3 {
+    font-size: 36px;
+}
 .whatWeDo ul {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
 }
 .whatWeDo ul li {
     list-style: none;
@@ -166,12 +171,11 @@ WHAT WE DO SECTION
 .whatWeDoBox {
     display: flex;
     margin: 22px 0;
-
-    box-shadow: 10px -10px  rgba(0,0,0,0.6);
-    -moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-    -webkit-box-shadow: 14px 20px  rgba(0,0,0,0.6);
-    -o-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-    border-radius: 22px 22px 0 22px;
+    box-shadow: 10px -10px  #3e7991;
+    -moz-box-shadow: 10px -10px  #3e7991;
+    -webkit-box-shadow: 14px 20px  #3e7991;
+    -o-box-shadow: 10px -10px  #3e7991;
+    border-radius: 0 25px 0 25px;
 }
 .whatWeDoBoxImg {
     background-color: #fff;
@@ -179,7 +183,7 @@ WHAT WE DO SECTION
     height: 100%;
     display: flex;
     align-items: center;
-    border-radius: 25px 0 0 25px;
+    border-radius: 0 0 0 25px;
 }
 .whatWeDoBoxImg img{
     width: 100%;
@@ -189,19 +193,30 @@ WHAT WE DO SECTION
     background-color: #fff;
     padding: 18px 12px;
     width: 70%;
+    border-radius: 0 25px 0 0;
 }
 
 /*----------------------------- 
 CONFERENCE SPLASH SECTION
 -----------------------------*/
+.conferenceBanner {
+    margin: 0;
+    padding: 0;
+}
+
 .conferenceBanner img{
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /*----------------------------- 
 CREW SECTION
 -----------------------------*/
-
+.crew {
+    background-color: #f5bafb;
+    padding: 44px 0;
+}
 .crew h3 {
     font-size: 44px;
     letter-spacing: 4px;
@@ -210,11 +225,15 @@ CREW SECTION
 .crew ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 .crew ul li {
-    width: 30%;
-    margin: 0 10px;
-    background-color: hotpink;
+    width: 26%;
+    box-shadow: 10px -10px  #3e7991;
+    -moz-box-shadow: 10px -10px  #3e7991;
+    -webkit-box-shadow: 14px 20px  #3e7991;
+    -o-box-shadow: 10px -10px  #3e7991;
+    border-radius: 0 25px 0 25px;
 }
 .crewImg {
     display: flex;
@@ -224,5 +243,5 @@ CREW SECTION
     width: 100%;
     height: 350px;
     background-color: #fff;
-    border-radius: 50%;
+    border-radius: 25px 0 0 0;
 }
