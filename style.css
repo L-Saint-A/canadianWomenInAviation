@@ -156,6 +156,9 @@ WHAT WE DO SECTION
 -----------------------------*/
 .whatWeDo {
     background-color: #8bd2c4;
+    background-image: url(./assets/trialBG2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 22px 0;
 }
 .whatWeDo h2 {
@@ -212,22 +215,32 @@ CONFERENCE SPLASH SECTION
     margin: 0;
     padding: 0;
 }
-
 .conferenceBanner img{
     width: 100%;
     margin: 0;
     padding: 0;
 }
-
 /*----------------------------- 
 CREW SECTION
 -----------------------------*/
 .crew {
     background-color: #f5bafb;
+    background-image: url(./assets/trialBG3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 44px 0;
 }
+.crewTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.crewTitle h2 {
+    font-size: 48px;
+}
 .crew h3 {
-    font-size: 44px;
+    font-size: 38px;
     letter-spacing: 4px;
     text-align: center;
 }
@@ -243,7 +256,7 @@ CREW SECTION
     -moz-box-shadow: 10px -10px  #b767c0;
     -webkit-box-shadow: 14px 20px  #b767c0;
     -o-box-shadow: 10px -10px  #b767c0;
-    border-radius: 0 0 25px 0;
+    border-radius: 25px 0 25px 0;
 }
 .crewImg {
     display: flex;
