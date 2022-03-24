@@ -26,9 +26,9 @@ PROGENITORS
     font-family: 'Poppins', sans-serif;
 }
 p {
-font-size: 22px;
-letter-spacing: 4px;
-line-height: 22pxpx;
+    font-size: 22px;
+    letter-spacing: 4px;
+    line-height: 22pxpx;
 }
 
 /*----------------------------- 
@@ -206,6 +206,11 @@ WHAT WE DO SECTION
     padding: 18px 12px;
     width: 70%;
     border-radius: 0 25px 0 0;
+}
+.whatWeDoBoxText h3 {
+    background: rgb(139,210,196);
+    background: linear-gradient(90deg, rgba(139,210,196,1) 0%, rgba(255,255,255,1) 50%);
+    padding: 6px 0 6px 10px;
 }
 
 /*----------------------------- 
