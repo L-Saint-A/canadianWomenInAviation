@@ -28,7 +28,7 @@ PROGENITORS
 p {
     font-size: 22px;
     letter-spacing: 4px;
-    line-height: 22pxpx;
+    line-height: 28px;
 }
 
 /*----------------------------- 
@@ -123,13 +123,14 @@ EXIST SECTION
 
 .exist {
     display: flex;
+    margin: 0 0 60px 0;
 }
 .exist div{
-    width: 50%;
     display: flex;
     flex-direction: column;
 }
 .existPic {
+    width: 50%;
     align-items: center;
     justify-content: center;
 }
@@ -142,14 +143,24 @@ EXIST SECTION
     text-align: center;
     letter-spacing: 10px;
 }
+.existText {
+    width: 50%;
+}
+.existText p{
+    line-height: 24px;
+}
 .existLink {
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 .existLink a {
+    color: #000;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 28px;
+    background-color: #ffc510;
+    padding: 12px 16px;
 }
+
 
 /*----------------------------- 
 WHAT WE DO SECTION
