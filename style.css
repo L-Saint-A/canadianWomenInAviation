@@ -154,13 +154,24 @@ EXIST SECTION
     align-items: flex-end;
 }
 .existLink a {
+    text-transform: uppercase;
     color: #000;
     text-decoration: none;
-    font-size: 28px;
+    letter-spacing: 2px;
+    font-size: 24px;
     background-color: #ffc510;
-    padding: 12px 16px;
+    box-shadow: 0 8px 0 #ebb410;
+    padding: 12px 22px;
+    cursor: pointer;
+    position: relative;
 }
-
+.existLink a:hover {
+    background-color: #ebb410;
+}
+.existLink a:active {
+    top: 8px;
+    box-shadow: none;
+}
 
 /*----------------------------- 
 WHAT WE DO SECTION
