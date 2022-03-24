@@ -161,10 +161,17 @@ WHAT WE DO SECTION
     background-size: cover;
     padding: 22px 0;
 }
+.whatWeDoTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .whatWeDo h2 {
+    background: rgb(255,255,255);
+    background: linear-gradient(315deg, rgba(255,255,255,0) 20%, rgba(139,210,196,1) 20%, rgba(139,210,196,1) 80%, rgba(255,255,255,0) 80%);
     font-size: 74px;
     letter-spacing: 10px;
-    text-align: center;
+    padding: 18px 122px;
 }
 .whatWeDo h3 {
     font-size: 36px;
@@ -209,8 +216,11 @@ WHAT WE DO SECTION
 }
 .whatWeDoBoxText h3 {
     background: rgb(139,210,196);
-    background: linear-gradient(90deg, rgba(139,210,196,1) 0%, rgba(255,255,255,1) 50%);
-    padding: 6px 0 6px 10px;
+    background: linear-gradient(135deg, rgba(139,210,196,1) 0%, rgba(139,210,196,1) 80%, rgba(255,255,255,0) 80%);
+    padding: 6px 80px 6px 10px;
+    letter-spacing: 6px;
+    width: fit-content;
+
 }
 
 /*----------------------------- 
@@ -244,9 +254,14 @@ CREW SECTION
     font-size: 48px;
 }
 .crew h3 {
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,0) 20%, rgba(245,186,251,1) 20%, rgba(245,186,251,1) 80%, rgba(255,255,255,0) 80%);
     font-size: 38px;
-    letter-spacing: 4px;
+    padding: 6px 0 6px 10px;
+    letter-spacing: 6px;
     text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 .crew ul {
     list-style: none;
