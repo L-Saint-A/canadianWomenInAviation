@@ -125,6 +125,7 @@ EXIST SECTION
     justify-content: space-between;
 }
 .existPic {
+    display: flex;
     width: 45%;
     align-items: center;
     justify-content: center;
