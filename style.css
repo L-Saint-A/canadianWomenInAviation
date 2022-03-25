@@ -108,29 +108,24 @@ HERO IMAGE
 -----------------------------*/
 .heroSplash {
     width: 100%;
-    height: 400px;
-    background-color: rgb(45, 165, 212);
-}
-.heroSplash p {
-    width: auto;
-    font-size: 75px;
-    color: #000;
     margin: 0;
+    height: 400px;
 }
+
 /*----------------------------- 
 EXIST SECTION
 -----------------------------*/
-
 .exist {
-    display: flex;
-    margin: 0 0 60px 0;
+    background-image: url(./assets/existBackground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.exist div{
+.exist .wrapper{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 .existPic {
-    width: 50%;
+    width: 45%;
     align-items: center;
     justify-content: center;
 }
@@ -144,10 +139,10 @@ EXIST SECTION
     letter-spacing: 10px;
 }
 .existText {
-    width: 50%;
+    width: 45%;
 }
 .existText p{
-    line-height: 24px;
+    line-height: 28px;
 }
 .existLink {
     display: flex;
@@ -160,13 +155,10 @@ EXIST SECTION
     letter-spacing: 2px;
     font-size: 24px;
     background-color: #ffc510;
-    box-shadow: 0 8px 0 #ebb410;
+    box-shadow: 0 8px 0 #b88d0d;
     padding: 12px 22px;
     cursor: pointer;
     position: relative;
-}
-.existLink a:hover {
-    background-color: #ebb410;
 }
 .existLink a:active {
     top: 8px;
