@@ -61,7 +61,7 @@ NAVIGATION
 BECOME MEMBER
 -----------------------------*/
 .becomeMember {
-    background-color: #000;
+    background-image: url(./assets/memberBanner.png);
     display: flex;
     height: 400px;
 }
@@ -147,7 +147,7 @@ EXIST SECTION
 }
 .existLink {
     display: flex;
-    align-items: flex-end;
+    justify-content: right;
 }
 .existLink a {
     text-transform: uppercase;
@@ -284,7 +284,7 @@ CREW SECTION
     justify-content: space-between;
 }
 .crew ul li {
-    width: 26%;
+    width: 30%;
     background-color: #fff;
     box-shadow: 10px -10px  #b767c0;
     -moz-box-shadow: 10px -10px  #b767c0;
@@ -306,3 +306,6 @@ CREW SECTION
     padding: 0 14px;
     text-align: center;
 }
+/*----------------------------- 
+FOOTER SECTION
+-----------------------------*/
