@@ -30,7 +30,6 @@ p {
     letter-spacing: 4px;
     line-height: 28px;
 }
-
 /*----------------------------- 
 NAVIGATION
 -----------------------------*/
@@ -240,14 +239,16 @@ WHAT WE DO SECTION
     padding: 6px 80px 6px 10px;
     letter-spacing: 6px;
     width: fit-content;
-
+}
+.whatWeDo .wrapper .existLink {
+    padding: 16px 0;
 }
 
 /*----------------------------- 
 CONFERENCE SPLASH SECTION
 -----------------------------*/
 .conference {
-    background-color: #8bd2c4;
+    background-color: #3e7991;
 }
 .conferenceBanner {
     margin: 0 0 28px 0;
@@ -258,7 +259,9 @@ CONFERENCE SPLASH SECTION
     margin: 0;
     padding: 0;
 }
-
+.conference .existLink {
+    padding: 0 0 22px 0;
+}
 /*----------------------------- 
 CREW SECTION
 -----------------------------*/
