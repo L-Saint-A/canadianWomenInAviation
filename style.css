@@ -35,20 +35,27 @@ NAVIGATION
 -----------------------------*/
 .topNav {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     padding: 0 18px;
     align-items: center;
+    height: 85px;
+    position: relative;
 }
 .topLogo {
-    width: 180px;
-    height: auto;
+    display: flex;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 22px;
 }
 .topNav ul {
     list-style: none;
     display: flex;
 }
 .topNav ul li a{
-    font-size: 22px;
+    font-size: 20px;
     color: #000;
     padding: 0 6px;
     margin: 0 6px;
@@ -61,8 +68,9 @@ BECOME MEMBER
 -----------------------------*/
 .becomeMember {
     background-image: url(./assets/memberBanner.png);
+    background-size: cover;
     display: flex;
-    height: 400px;
+    height: 460px;
 }
 .memberText {
     display: flex;
@@ -142,6 +150,8 @@ EXIST SECTION
     font-size: 74px;
     text-align: center;
     letter-spacing: 10px;
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,0) 25%, rgba(245,186,251,1) 25%, rgba(245,186,251,1) 75%, rgba(255,255,255,0) 75%);
 }
 .existText {
     width: 45%;
@@ -279,6 +289,8 @@ CREW SECTION
 }
 .crewTitle h2 {
     font-size: 48px;
+    background: rgb(255,255,255);
+    background: linear-gradient(315deg, rgba(255,255,255,0) 20%, rgba(245,186,251,1) 20%, rgba(245,186,251,1) 80%, rgba(255,255,255,0) 80%);
 }
 .crew h3 {
     background: rgb(255,255,255);
