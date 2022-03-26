@@ -318,6 +318,9 @@ CREW SECTION
     padding: 0 14px;
     text-align: center;
 }
+.crew .existLink {
+    padding: 28px 0;
+}
 /*----------------------------- 
 FOOTER SECTION
 -----------------------------*/
@@ -336,6 +339,15 @@ footer nav {
 .footerLogo {
     width: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerLogo p {
+    color: #fff;
+    font-size: 26px;
+    padding: 0 0 0 16px;
+    font-weight: 600;
+    letter-spacing: 8px;
 }
 .bottomLogo {
     display: flex;
@@ -346,11 +358,16 @@ footer nav {
     justify-content: center;
     align-items: center;
 }
+.bottomNav {
+    display: flex;
+    justify-content: center;
+}
 footer nav ul li {
     list-style: none;
+    margin: 6px 0;
 }
 footer nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: ;
+    padding: 8px;
 }
