@@ -321,3 +321,36 @@ CREW SECTION
 /*----------------------------- 
 FOOTER SECTION
 -----------------------------*/
+footer {
+    display: flex;
+    background-image: url(./assets/footerBG.png);
+    background-size: cover;
+}
+footer .wrapper {
+    display: flex;
+    padding: 24px 0;
+}
+footer nav {
+    width: 50%;
+}
+.footerLogo {
+    width: 50%;
+    display: flex;
+}
+.bottomLogo {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+footer nav ul li {
+    list-style: none;
+}
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: ;
+}
