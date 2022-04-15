@@ -26,8 +26,14 @@ PROGENITORS
 * {
     font-size: 62.5%;
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'Fira Sans', sans-serif;
+}
+h2 {
+    font-size: 5rem;
+}
+h3 {
+    font-size: 4rem;
 }
 
 p, a {
@@ -61,7 +67,6 @@ NAVIGATION
     display: flex;
 }
 .topNav ul li a{
-    font-size: 20px;
     color: #000;
     padding: 0 6px;
     margin: 0 6px;
@@ -84,12 +89,11 @@ BECOME MEMBER
     flex-direction: column;
     color: #fff;
     text-align: center;
-    padding: 22px;
     width: 55%;
     justify-content: center;
+    align-items: center;
 }
 .memberText h3 {
-    font-size: 4rem;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -108,13 +112,18 @@ BECOME MEMBER
     text-transform: uppercase;
     color: #000;
     text-decoration: none;
-    font-size: 24px;
     background-color: #ffc510;
     box-shadow: 0 8px 0 #b88d0d;
     padding: 12px 22px;
     margin: 0 44px 22px 0;
+    border-radius: 25px 0 25px 0;
     cursor: pointer;
     position: relative;
+}
+
+.memberButton a:active {
+    top: 8px;
+    box-shadow: none;
 }
 .memberImg {
     display: flex;
@@ -140,6 +149,7 @@ EXIST SECTION
     background-image: url(./assets/existBackground.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 44px 0;
 }
 .exist .wrapper{
     display: flex;
@@ -156,7 +166,8 @@ EXIST SECTION
     height: auto;
 }
 .exist h2 {
-    font-size: 74px;
+    padding: 0;
+    margin: 0;
     text-align: center;
     background: rgb(255,255,255);
     background: linear-gradient(135deg, rgba(255,255,255,0) 25%, rgba(245,186,251,1) 25%, rgba(245,186,251,1) 75%, rgba(255,255,255,0) 75%);
@@ -172,11 +183,10 @@ EXIST SECTION
     text-transform: uppercase;
     color: #000;
     text-decoration: none;
-
-    font-size: 24px;
     background-color: #ffc510;
     box-shadow: 0 8px 0 #b88d0d;
     padding: 12px 22px;
+    border-radius: 25px 0 25px 0;
     cursor: pointer;
     position: relative;
 }
@@ -205,9 +215,6 @@ WHAT WE DO SECTION
     background: linear-gradient(315deg, rgba(255,255,255,0) 20%, rgba(139,210,196,1) 20%, rgba(139,210,196,1) 80%, rgba(255,255,255,0) 80%);
     font-size: 74px;
     padding: 18px 122px;
-}
-.whatWeDo h3 {
-    font-size: 36px;
 }
 .whatWeDo ul {
     display: flex;
@@ -291,14 +298,12 @@ CREW SECTION
     text-align: center;
 }
 .crewTitle h2 {
-    font-size: 48px;
     background: rgb(255,255,255);
     background: linear-gradient(315deg, rgba(255,255,255,0) 20%, rgba(245,186,251,1) 20%, rgba(245,186,251,1) 80%, rgba(255,255,255,0) 80%);
 }
 .crew h3 {
     background: rgb(255,255,255);
     background: linear-gradient(135deg, rgba(255,255,255,0) 20%, rgba(245,186,251,1) 20%, rgba(245,186,251,1) 80%, rgba(255,255,255,0) 80%);
-    font-size: 38px;
     padding: 6px 0 6px 10px;
     text-align: center;
     display: inline-block;
@@ -358,7 +363,6 @@ footer nav {
 }
 .footerLogo p {
     color: #fff;
-    font-size: 26px;
     padding: 0 0 0 16px;
     font-weight: 600;
 }
