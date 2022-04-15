@@ -30,10 +30,12 @@ h1, h2, h3 {
     font-family: 'Fira Sans', sans-serif;
 }
 h2 {
-    font-size: 5rem;
+    font-size: 5.4rem;
+    letter-spacing: 1.4px;
 }
 h3 {
-    font-size: 4rem;
+    font-size: 4.2rem;
+    letter-spacing: 0.8px;
 }
 
 p, a {
@@ -165,12 +167,15 @@ EXIST SECTION
     width: 680px;
     height: auto;
 }
+.existTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .exist h2 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
     background: rgb(255,255,255);
     background: linear-gradient(135deg, rgba(255,255,255,0) 25%, rgba(245,186,251,1) 25%, rgba(245,186,251,1) 75%, rgba(255,255,255,0) 75%);
+    padding: 12px 48px;
 }
 .existText {
     width: 45%;
@@ -213,8 +218,7 @@ WHAT WE DO SECTION
 .whatWeDo h2 {
     background: rgb(255,255,255);
     background: linear-gradient(315deg, rgba(255,255,255,0) 20%, rgba(139,210,196,1) 20%, rgba(139,210,196,1) 80%, rgba(255,255,255,0) 80%);
-    font-size: 74px;
-    padding: 18px 122px;
+    padding: 12px 48px;
 }
 .whatWeDo ul {
     display: flex;
@@ -257,7 +261,7 @@ WHAT WE DO SECTION
 .whatWeDoBoxText h3 {
     background: rgb(139,210,196);
     background: linear-gradient(135deg, rgba(139,210,196,1) 0%, rgba(139,210,196,1) 80%, rgba(255,255,255,0) 80%);
-    padding: 6px 80px 6px 10px;
+    padding: 6px 133px 6px 10px;
     width: fit-content;
 }
 .whatWeDo .wrapper .existLink {
