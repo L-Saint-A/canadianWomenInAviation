@@ -28,6 +28,7 @@ PROGENITORS
 }
 h1, h2, h3 {
     font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
 }
 h2 {
     font-size: 5.4rem;
@@ -52,6 +53,7 @@ NAVIGATION
     justify-content: right;
     padding: 0 18px;
     align-items: center;
+    align-content: center;
     height: 72px;
     position: relative;
 }
@@ -76,20 +78,27 @@ NAVIGATION
 }
 .topNav ul li a:hover {
     border-bottom: 3px solid #ec1f23;
+} 
+.navIcons a {
+    margin: 0;
 }
+.navIcons a i{
+    font-size: 2.4rem;
+    margin: 0;
+} 
 
 /*----------------------------- 
 BECOME MEMBER
 -----------------------------*/
 .becomeMember {
-    background-color: #000;
+    background-color: #070707;
     display: flex;
     height: 38vh;
 }
 .memberText {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: rgb(247, 247, 247);
     text-align: center;
     width: 55%;
     justify-content: center;
@@ -307,10 +316,9 @@ CREW SECTION
 }
 .crew h3 {
     background: rgb(255,255,255);
-    background: linear-gradient(135deg, rgba(255,255,255,0) 20%, rgba(245,186,251,1) 20%, rgba(245,186,251,1) 80%, rgba(255,255,255,0) 80%);
+    background: linear-gradient(135deg, rgba(245,186,251,1) 0%, rgba(245,186,251,1) 80%, rgba(255,255,255,0) 80%);
     padding: 6px 0 6px 10px;
-    text-align: center;
-    display: inline-block;
+    text-align: left;
     width: 100%;
 }
 .crew ul {
@@ -339,7 +347,7 @@ CREW SECTION
 }
 .crewText {
     padding: 0 14px;
-    text-align: center;
+    text-align: left;
 }
 .crew .existLink {
     padding: 28px 0;
@@ -365,23 +373,25 @@ footer nav {
     justify-content: center;
     align-items: center;
 }
-.footerLogo p {
-    color: #fff;
-    padding: 0 0 0 16px;
-    font-weight: 600;
-}
-.bottomLogo {
+
+.bottomLogo img{
     display: flex;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: #fff;
-    justify-content: center;
-    align-items: center;
+    width: 140px;
+    height: auto;
 }
 .bottomNav {
     display: flex;
     justify-content: center;
+}
+.bottomNav .navIcons {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.bottomNav ul {
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 footer nav ul li {
     list-style: none;
