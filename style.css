@@ -31,7 +31,7 @@ h1, h2, h3 {
     font-weight: bolder;
 }
 h2 {
-    font-size: 5.4rem;
+    font-size: 6.2rem;
     letter-spacing: 1.4px;
 }
 h3 {
@@ -190,6 +190,16 @@ EXIST SECTION
 }
 .existText {
     width: 45%;
+}
+.existIcons {
+    display: flex;
+    justify-content: center;
+}
+.existIcons i {
+    font-size: 1.8rem;
+    color: #070707;
+    padding: 0 12px;
+    color: #3e7991;
 }
 .existLink {
     display: flex;
