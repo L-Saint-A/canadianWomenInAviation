@@ -193,6 +193,7 @@ EXIST SECTION
     display: flex;
     height: 30px;
     justify-content: center;
+    align-items: center;
 }
 .existIcons i {
     font-size: 1.8rem;
@@ -201,15 +202,14 @@ EXIST SECTION
 }
 .existDivider {
     display: flex;
+    height: 30px;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    height: 20px;
-    width: 20%;
-    background-color: #3e7991;
 }
-.existIcons .fa-solid .fa-minus {
-    font-size: 6rem;
+.existDivider i {
+    font-size: 10rem;
+    color: #3e7991;
+    padding: 0 1.4rem;
 }
 .existLink {
     display: flex;
