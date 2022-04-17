@@ -92,7 +92,7 @@ BECOME MEMBER
 .becomeMember {
     background-color: #070707;
     display: flex;
-    height: 30vh;
+    height: 35vh;
 }
 .memberText {
     display: flex;
@@ -109,17 +109,15 @@ BECOME MEMBER
     text-align: center;
     font-size: 3rem;
 }
-.memberButton {
+.memberImage {
     display: flex;
     width: 45%;
     background-image: url(./assets/becomeAMember.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    justify-content: flex-end;
-    align-items: flex-end;
 }
-.memberButton a {
+.memberText a {
     text-transform: uppercase;
     color: #000;
     text-decoration: none;
@@ -193,13 +191,25 @@ EXIST SECTION
 }
 .existIcons {
     display: flex;
+    height: 30px;
     justify-content: center;
 }
 .existIcons i {
     font-size: 1.8rem;
-    color: #070707;
-    padding: 0 12px;
     color: #3e7991;
+    padding: 0 1.4rem;
+}
+.existDivider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 20px;
+    width: 20%;
+    background-color: #3e7991;
+}
+.existIcons .fa-solid .fa-minus {
+    font-size: 6rem;
 }
 .existLink {
     display: flex;
