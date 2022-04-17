@@ -169,12 +169,14 @@ EXIST SECTION
 .existPic {
     display: flex;
     width: 45%;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+
 }
 .existPic img{
     width: 680px;
     height: auto;
+    padding-bottom: calc(50% - 150px);
 }
 .existTitle {
     display: flex;
@@ -210,6 +212,11 @@ EXIST SECTION
     font-size: 10rem;
     color: #3e7991;
     padding: 0 1.4rem;
+}
+i.fa-plane-departure {
+    font-size: 4rem;
+    padding: 14px;
+    border-radius: 50%;
 }
 .existLink {
     display: flex;
