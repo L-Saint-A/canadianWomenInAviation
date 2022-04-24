@@ -61,7 +61,7 @@ NAVIGATION
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #fffdfa;
     position: absolute;
     left: 22px;
 }
@@ -92,12 +92,12 @@ BECOME MEMBER
 .becomeMember {
     background-color: #070707;
     display: flex;
-    height: 35vh;
 }
 .memberText {
     display: flex;
     flex-direction: column;
-    color: rgb(247, 247, 247);
+    color: #fffdfa;
+    padding: 20px;
     text-align: center;
     width: 55%;
     justify-content: center;
@@ -108,6 +108,14 @@ BECOME MEMBER
     padding: 0;
     text-align: center;
     font-size: 3rem;
+}
+.memberText h3::after {
+    content: '';
+    display: block;
+    background-color: #fffdfa;
+    width: 55%;
+    height: 2px;
+    margin: 22px auto auto auto;
 }
 .memberImage {
     display: flex;
@@ -122,8 +130,9 @@ BECOME MEMBER
     color: #000;
     text-decoration: none;
     background-color: #ffc510;
+    border: 2px solid #fffdfa;
     box-shadow: 0 8px 0 #b88d0d;
-    padding: 8px 14px;
+    padding: 8px 20px;
     margin: 0 44px 22px 0;
     border-radius: 25px 0 25px 0;
     cursor: pointer;
@@ -146,7 +155,6 @@ HERO IMAGE
 .heroSplash {
     width: 100%;
     margin: 0;
-    height: 70vh;
     background-color: #8bd2c4;
 }
 .heroSplash div img {
@@ -158,7 +166,7 @@ HERO IMAGE
 EXIST SECTION
 -----------------------------*/
 .exist {
-    background-image: url(./assets/existBackground.svg);
+    background-image: url(./assets/newExistBG.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -171,7 +179,6 @@ EXIST SECTION
     width: 45%;
     justify-content: center;
     align-items: center;
-
 }
 .existPic img{
     width: 680px;
@@ -190,32 +197,28 @@ EXIST SECTION
 }
 .existText {
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .existIcons {
     display: flex;
-    height: 30px;
     justify-content: center;
     align-items: center;
-}
-.existIcons i {
-    font-size: 1.8rem;
     color: #3e7991;
-    padding: 0 1.4rem;
 }
-.existDivider {
-    display: flex;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
+i.fa-solid.fa-circle {
+    font-size: 1rem;
+    padding: 0 6px;
+    align-self: center;
 }
-.existDivider i {
-    font-size: 10rem;
-    color: #3e7991;
-    padding: 0 1.4rem;
+i.fa-solid.fa-minus {
+    font-size: 5.2rem;
+    display: inline;
 }
+
 i.fa-plane-departure {
     font-size: 4rem;
-    padding: 14px;
     border-radius: 50%;
 }
 .existLink {
@@ -228,6 +231,7 @@ i.fa-plane-departure {
     text-decoration: none;
     background-color: #ffc510;
     box-shadow: 0 8px 0 #b88d0d;
+    border: 3px solid #fffdfa;
     padding: 12px 22px;
     border-radius: 25px 0 25px 0;
     cursor: pointer;
