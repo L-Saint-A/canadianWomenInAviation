@@ -28,7 +28,7 @@ PROGENITORS
 }
 h1, h2, h3 {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: bolder;
+    font-weight: 800;
 }
 h2 {
     font-size: 6.2rem;
@@ -455,6 +455,17 @@ MEDIA QUERIES
 @media (max-width: 1024px) {
     .wrapper {
         width: 90%;
+    }
+    .memberText {
+        display: flex;
+        padding: 22px 55px;
+        width: 100%;
+    }
+    .memberText h3 {
+        font-size: 4rem;
+    }
+    .memberImage {
+        display: none;
     }
     .whatWeDo .buttonLink {
         margin: 20px 0 0 0;
