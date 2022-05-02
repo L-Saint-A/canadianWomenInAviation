@@ -129,6 +129,7 @@ BECOME MEMBER
     text-transform: uppercase;
     color: #000;
     text-decoration: none;
+    font-weight: 600;
     background-color: #ffc510;
     border: 2px solid #fffdfa;
     box-shadow: 0 8px 0 #b88d0d;
@@ -155,7 +156,16 @@ HERO IMAGE
 .heroSplash {
     width: 100%;
     margin: 0;
-    background-color: #8bd2c4;
+    background-color: lightslategray;
+}
+.heroSplash div {
+    height: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroSplash div p {
+    font-size: 50px;
 }
 .heroSplash div img {
     width: 100%;
@@ -221,23 +231,24 @@ i.fa-plane-departure {
     font-size: 4rem;
     border-radius: 50%;
 }
-.existLink {
+.buttonLink {
     display: flex;
     justify-content: right;
 }
-.existLink a {
+.buttonLink a {
     text-transform: uppercase;
-    color: #000;
+    color: #070707;
     text-decoration: none;
+    font-weight: 600;
     background-color: #ffc510;
     box-shadow: 0 8px 0 #b88d0d;
-    border: 3px solid #fffdfa;
+    border: 3px solid #e9e6e3;
     padding: 12px 22px;
     border-radius: 25px 0 25px 0;
     cursor: pointer;
     position: relative;
 }
-.existLink a:active {
+.buttonLink a:active {
     top: 8px;
     box-shadow: none;
 }
@@ -435,4 +446,20 @@ footer nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 8px;
+}
+
+/*----------------------------- 
+MEDIA QUERIES
+-----------------------------*/
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+    .whatWeDo .buttonLink {
+        margin: 20px 0 0 0;
+    }
+    .crew .buttonLink {
+        margin: 24px 0 0 0;
+    }
 }
