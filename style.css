@@ -74,9 +74,14 @@ NAVIGATION
     padding: 0 6px;
     margin: 0 6px;
     text-decoration: none;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.08s;
+    transition-delay: 0.02s;
 }
 .topNav ul li a:hover {
     border-bottom: 3px solid #ec1f23;
+
 } 
 .navIcons a {
     margin: 0;
