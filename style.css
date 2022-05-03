@@ -81,9 +81,7 @@ NAVIGATION
 }
 .topNav ul li a:hover {
     border-bottom: 3px solid #ec1f23;
-
 } 
-
 .navIcons a {
     margin: 0;
 }
@@ -352,6 +350,7 @@ CREW SECTION
 .crewTitle h2 {
     background: rgb(255,255,255);
     background: linear-gradient(315deg, rgba(255,255,255,0) 20%, rgba(245,186,251,1) 20%, rgba(245,186,251,1) 80%, rgba(255,255,255,0) 80%);
+    margin: 0 0 64px 0;
 }
 .crew h3 {
     background: rgb(255,255,255);
@@ -444,6 +443,14 @@ footer nav ul li a {
     color: #fffdfa;
     text-decoration: none;
     padding: 8px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.08s;
+    transition-delay: 0.02s;
+}
+
+.bottomNav ul li a:hover {
+    border-bottom: 3px solid #ec1f23;
 }
 
 /*----------------------------- 
@@ -470,5 +477,33 @@ MEDIA QUERIES
     }
     .crew .buttonLink {
         margin: 24px 0 0 0;
+    }
+}
+@media (max-width: 768px) {
+    .exist .wrapper {
+        flex-direction: column-reverse;
+    }
+    .existPic {
+        width: 100%;
+    }
+    .existPic img {
+        width: 500px;
+        padding: 0 0 50px 0;
+    }
+    .existText {
+        width: 100%;
+    }
+    .whatWeDoBox {
+        flex-direction: column;
+    }
+    .whatWeDoBoxImg {
+        width: 100%;
+        height: 300px;
+    }
+    .whatWeDoBoxImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover center;
+        display: block;
     }
 }
