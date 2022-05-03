@@ -70,7 +70,7 @@ NAVIGATION
     display: flex;
 }
 .topNav ul li a{
-    color: #000;
+    color: #070707;
     padding: 0 6px;
     margin: 0 6px;
     text-decoration: none;
@@ -83,6 +83,7 @@ NAVIGATION
     border-bottom: 3px solid #ec1f23;
 
 } 
+
 .navIcons a {
     margin: 0;
 }
@@ -102,7 +103,7 @@ BECOME MEMBER
     display: flex;
     flex-direction: column;
     color: #fffdfa;
-    padding: 20px;
+    padding: 24px;
     text-align: center;
     width: 55%;
     justify-content: center;
@@ -120,7 +121,14 @@ BECOME MEMBER
     background-color: #fffdfa;
     width: 55%;
     height: 2px;
-    margin: 22px auto auto auto;
+    margin: 10px auto 10px auto;
+}
+.memberText p {
+    margin: 0;
+}
+.memberText .buttonLink a {
+    padding: 8px 18px;
+    margin: 10px 0 6px 0;
 }
 .memberImage {
     display: flex;
@@ -129,25 +137,6 @@ BECOME MEMBER
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-}
-.memberText a {
-    text-transform: uppercase;
-    color: #000;
-    text-decoration: none;
-    font-weight: 600;
-    background-color: #ffc510;
-    border: 2px solid #fffdfa;
-    box-shadow: 0 8px 0 #b88d0d;
-    padding: 8px 20px;
-    margin: 0 44px 22px 0;
-    border-radius: 25px 0 25px 0;
-    cursor: pointer;
-    position: relative;
-}
-
-.memberButton a:active {
-    top: 8px;
-    box-shadow: none;
 }
 .memberImg {
     display: flex;
@@ -209,6 +198,7 @@ EXIST SECTION
     background: rgb(255,255,255);
     background: linear-gradient(135deg, rgba(255,255,255,0) 25%, rgba(245,186,251,1) 25%, rgba(245,186,251,1) 75%, rgba(255,255,255,0) 75%);
     padding: 12px 48px;
+    margin: 76px 0 0 0;
 }
 .existText {
     width: 45%;
@@ -299,7 +289,7 @@ WHAT WE DO SECTION
     border-radius: 0 25px 0 25px;
 }
 .whatWeDoBoxImg {
-    background-color: #fff;
+    background-color: #fffdfa;
     width: 30%;
     height: 100%;
     display: flex;
@@ -311,7 +301,7 @@ WHAT WE DO SECTION
     border-radius: 25px 0 0 25px;
 }
 .whatWeDoBoxText {
-    background-color: #fff;
+    background-color: #fffdfa;
     padding: 18px 12px;
     width: 70%;
     border-radius: 0 25px 0 0;
@@ -322,8 +312,8 @@ WHAT WE DO SECTION
     padding: 6px 133px 6px 10px;
     width: fit-content;
 }
-.whatWeDo .wrapper .existLink {
-    padding: 16px 0;
+.whatWeDo .wrapper .buttonLink {
+    padding: 16px 0 12px 0;
 }
 
 /*----------------------------- 
@@ -341,7 +331,7 @@ CONFERENCE SPLASH SECTION
     margin: 0;
     padding: 0;
 }
-.conference .existLink {
+.conference .buttonLink {
     padding: 0 0 22px 0;
 }
 /*----------------------------- 
@@ -377,7 +367,7 @@ CREW SECTION
 }
 .crew ul li {
     width: 30%;
-    background-color: #fff;
+    background-color: #fffdfa;
     box-shadow: 10px -10px  #b767c0;
     -moz-box-shadow: 10px -10px  #b767c0;
     -webkit-box-shadow: 14px 20px  #b767c0;
@@ -391,7 +381,7 @@ CREW SECTION
 .crewImg img {
     width: 100%;
     height: 350px;
-    background-color: #fff;
+    background-color: #fffdfa;
     border-radius: 25px 0 0 0;
 }
 .crewText {
@@ -400,6 +390,9 @@ CREW SECTION
 }
 .crew .existLink {
     padding: 28px 0;
+}
+.crew .wrapper .buttonLink {
+    margin: 26px 0 0 0;
 }
 /*----------------------------- 
 FOOTER SECTION
@@ -448,7 +441,7 @@ footer nav ul li {
     margin: 6px 0;
 }
 footer nav ul li a {
-    color: #fff;
+    color: #fffdfa;
     text-decoration: none;
     padding: 8px;
 }
