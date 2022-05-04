@@ -538,3 +538,21 @@ MEDIA QUERIES
         background: linear-gradient(135deg, rgba(245,186,251,1) 0%, rgba(245,186,251,1) 40%, rgba(255,255,255,0) 40%);
     }
 }
+@media (max-width: 480px) {
+    .wrapper {
+        width: 92%;
+    }
+    .heroSplash {
+        height: 300px;
+        background-image: url(./assets/Imperfect\ banner_500×300.png);
+    }
+    .exist h2 {
+        text-align: center;
+    }
+    .whatWeDo h2 {
+        padding: 12px 28px;
+    }
+    .whatWeDoBoxText h3 {
+        background: linear-gradient(135deg, rgba(139,210,196,1) 0%, rgba(139,210,196,1) 60%, rgba(255,255,255,0) 60%);
+    }
+}
