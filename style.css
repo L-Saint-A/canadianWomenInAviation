@@ -146,23 +146,14 @@ BECOME MEMBER
 HERO IMAGE
 -----------------------------*/
 .heroSplash {
-    width: 100%;
+    height: 400px;
     margin: 0;
-    background-color: lightslategray;
+    background-image: url(./assets/Imperfect\ banner_1200x400.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.heroSplash div {
-    height: 385px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.heroSplash div p {
-    font-size: 50px;
-}
-.heroSplash div img {
-    width: 100%;
-    object-fit: contain;
-}
+
 
 /*----------------------------- 
 EXIST SECTION
@@ -472,6 +463,10 @@ MEDIA QUERIES
     .memberImage {
         display: none;
     }
+    .heroSplash {
+        height: 400px;
+        background-image: url(./assets/Imperfect\ banner_1000×400.png);
+    }
     .whatWeDo .buttonLink {
         margin: 20px 0 0 0;
     }
@@ -480,6 +475,10 @@ MEDIA QUERIES
     }
 }
 @media (max-width: 768px) {
+    .heroSplash {
+        height: 400px;
+        background-image: url(./assets/Imperfect\ banner_800x400.png);
+    }
     .exist .wrapper {
         flex-direction: column-reverse;
     }
@@ -533,5 +532,9 @@ MEDIA QUERIES
         height: 100%;
         display: block;
         object-fit: cover center;
+    }
+    .crewText h3 {
+        background: rgb(255,255,255);
+        background: linear-gradient(135deg, rgba(245,186,251,1) 0%, rgba(245,186,251,1) 40%, rgba(255,255,255,0) 40%);
     }
 }
