@@ -312,13 +312,13 @@ CONFERENCE SPLASH SECTION
     background-color: #3e7991;
 }
 .conferenceBanner {
+    background-image: url(./assets/Website\ Conference\ Banner_1200×400.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin: 0 0 28px 0;
     padding: 0;
-}
-.conferenceBanner img{
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    height: 500px;
 }
 .conference .buttonLink {
     padding: 0 0 22px 0;
@@ -467,8 +467,14 @@ MEDIA QUERIES
         height: 400px;
         background-image: url(./assets/Imperfect\ banner_1000×400.png);
     }
+    .existText .buttonLink {
+        padding: 0 0 48px 0;
+    }
     .whatWeDo .buttonLink {
         margin: 20px 0 0 0;
+    }
+    .conferenceBanner {
+        background-image: url(./assets/Website\ Conference\ Banner_1000×400.png);
     }
     .crew .buttonLink {
         margin: 24px 0 0 0;
@@ -513,6 +519,9 @@ MEDIA QUERIES
         width: 100%;
         border-radius: 0 0 0 25px;
     }
+    .conferenceBanner {
+        background-image: url(./assets/Website\ Conference\ Banner_800×400.png);
+    }
     .crew .wrapper ul {
         flex-direction: column;
     }
@@ -554,5 +563,8 @@ MEDIA QUERIES
     }
     .whatWeDoBoxText h3 {
         background: linear-gradient(135deg, rgba(139,210,196,1) 0%, rgba(139,210,196,1) 60%, rgba(255,255,255,0) 60%);
+    }
+    .conferenceBanner {
+        background-image: url(./assets/Website\ Conference\ Banner_500x300.png);
     }
 }
