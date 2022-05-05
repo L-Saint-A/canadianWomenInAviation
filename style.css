@@ -309,18 +309,17 @@ WHAT WE DO SECTION
 CONFERENCE SPLASH SECTION
 -----------------------------*/
 .conference {
-    background-color: #3e7991;
+    background-color: #8bd2c4;
 }
 .conferenceBanner {
     background-image: url(./assets/Website\ Conference\ Banner_1200×400.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0 0 28px 0;
-    padding: 0;
-    height: 500px;
+    height: 450px;
 }
 .conference .buttonLink {
+    margin-top: 28px;
     padding: 0 0 22px 0;
 }
 /*----------------------------- 
