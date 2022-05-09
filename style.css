@@ -194,12 +194,16 @@ EXIST SECTION
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 14px 0;
 }
 .existIcons {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #3e7991;
+}
+.existIcons:first-of-type {
+    padding: 20px 0;
 }
 i.fa-solid.fa-circle {
     font-size: 1rem;
