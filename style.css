@@ -232,6 +232,10 @@ i.fa-plane-departure {
     cursor: pointer;
     position: relative;
 }
+.buttonLink i {
+    font-size: 2.6rem;
+    padding: 0 0 0 12px;
+}
 .buttonLink a:active {
     top: 8px;
     box-shadow: none;
@@ -425,11 +429,11 @@ footer nav {
     align-items: center;
     align-content: center;
 }
-footer nav ul li {
+.bottomNav ul li {
     list-style: none;
     margin: 6px 0;
 }
-footer nav ul li a {
+.bottomNav ul li a {
     color: #fffdfa;
     text-decoration: none;
     padding: 8px;
