@@ -430,7 +430,6 @@ footer nav {
 .footerLogo {
     width: 30%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -441,31 +440,38 @@ footer nav {
 }
 .bottomNav {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     width: 70%;
 }
-.bottomNav .navIcons {
+.bottomNav .navIconsBottom {
     display: flex;
-    align-items: center;
-    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
 }
 .bottomNav ul {
     display: flex;
     align-items: center;
     align-content: center;
 }
+.bottomNav ul div{
+    padding: 0 22px;
+}
 .bottomNav ul li {
     list-style: none;
-    margin: 6px 0;
+    text-align: right;
 }
 .bottomNav ul li a {
     color: #fffdfa;
     text-decoration: none;
-    padding: 8px;
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: 0.08s;
     transition-delay: 0.02s;
+}
+
+.navIconsBottom i {
+    font-size: 2.4rem;
+    padding: 0 0 0 12px;
 }
 
 .bottomNav ul li a:hover {
