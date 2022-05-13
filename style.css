@@ -346,6 +346,7 @@ CONFERENCE SPLASH SECTION
     background-size: contain;
     background-repeat: no-repeat;
     height: 450px;
+    background-color: #f5bafb;
 }
 .conference .buttonLink {
     margin-top: 28px;
