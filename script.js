@@ -1,15 +1,7 @@
-const menuButton = document.querySelector('.navButton');
-const navUL = document.querySelector('.navItems');
-let menuOpen = false;
 
+const toggleButton = document.getElementsByClassName('toggle')[0]
+const links = document.getElementsByClassName('topNavLinks')[0]
 
-menuButton.addEventListener('click', ()=>{
-    if(!menuOpen) {
-        menuButton.classList.add('open')
-        menuOpen = true
-    } else {
-        menuButton.classList.remove('open')
-        menuOpen = false
-    }
-    navUL.classList.toggle('show');
-});
+toggleButton.addEventListener('click', () => {
+    links.classList.toggle('active')
+})

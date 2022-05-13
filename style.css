@@ -64,6 +64,7 @@ NAVIGATION
     background-color: #fffdfa;
     position: absolute;
     left: 22px;
+    top: -30px;
 }
 .topNav ul {
     list-style: none;
@@ -82,6 +83,26 @@ NAVIGATION
 .topNav ul li a:hover {
     border-bottom: 3px solid #ec1f23;
 } 
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 36px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+}
+.toggle .bar {
+    height: 6px;
+    width: 100%;
+    background-color: #070707;
+    border-radius: 10px;
+}
+.navIcons {
+    display: flex;
+    flex-direction: row;
+}
 .navIcons a {
     margin: 0;
 }
@@ -458,6 +479,36 @@ MEDIA QUERIES
 @media (max-width: 1024px) {
     .wrapper {
         width: 90%;
+    }
+    .toggle {
+        display: flex;
+    }
+    .topNavLinks {
+        display: none;
+        width: 25%;
+    }
+    .topNavLinks li {
+        text-align: center;
+    }
+    .topNav {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .topNavLinks ul {
+        flex-direction: column;
+        background-color: #fffdfa;
+        width: 100%;
+        padding: 42px 0 12px 0;
+    }
+    .topNavLinks.active {
+        display: flex;
+    }
+    .navIcons {
+        display: flex;
+        justify-content: center;
+    }
+    .navIcons li {
+        display: inline;
     }
     .memberText {
         display: flex;
